@@ -6,7 +6,7 @@ func main() {
 	var i int
 	var j int
 	i=45
-	j=6
+	j=600
 	fmt.Println(i * j)
 
 // without var and declaring variables
