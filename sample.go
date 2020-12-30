@@ -45,10 +45,17 @@ var sname string
 //captial i=integer and a standsfor= ascii */
 
 var z bool=true
+n := 1 ==1
 
 fmt.Printf("%T , %v\n" ,z , z )
+fmt.Printf("%T , %v\n" ,n , n )
 
+s:="sandeep"
+fmt.Printf("%v,%T" ,string(s[2]) ,s[2])
 
+alpha:="sandeep"
+show:=[]byte(alpha)
 
+fmt.Printf("%v,",show)
 
 }
