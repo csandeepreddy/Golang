@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var i int
 	var j int
-	i=4
+	i=45
 	j=6
 	fmt.Println(i * j)
 
