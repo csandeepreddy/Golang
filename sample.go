@@ -9,6 +9,15 @@ func main() {
 	j=600
 	fmt.Println(i * j)
 
+type	biodata struct{   //struct
+reg int
+name string
+age int
+marks []int
+
+}                         //struct
+
+
 // without var and declaring variables
 
 /*name :="sandeep"
@@ -58,4 +67,41 @@ show:=[]byte(alpha)
 
 fmt.Printf("%v,",show)
 
+fmt.Println("/n/n")
+grades:= [7]int {78,64,90,53,65,87,43}
+fmt.Println(grades[0])
+
+fmt.Println("/n/n")
+fmt.Println("/n/n")
+fmt.Println("/n/n")
+
+//population
+statepopulation:= map[string]int{
+  "india": 634234678683,
+	"usa": 2384783748284,
+	"mp":6374632874672834627,
+}
+fmt.Println(statepopulation["usa"])
+statepopulation["japan"]=78234683248 // adding statepopulation
+fmt.Println(statepopulation["japan"])
+delete(statepopulation,"india") //deleting statepopulation
+fmt.Println(statepopulation)
+fmt.Println(len(statepopulation))
+sp:=statepopulation
+delete(sp, "usa")
+fmt.Println(statepopulation)
+
+//struct
+
+details:=biodata{
+	reg:76,
+	name:"sandeep",
+	age: 28,
+	marks:[]int{
+		23,23,23,23,23,
+	},
+
+}
+
+fmt.Println(details.age)
 }
