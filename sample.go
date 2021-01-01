@@ -96,7 +96,7 @@ fmt.Println(statepopulation)
 details:=biodata{
 	reg:76,
 	name:"sandeep",
-	age: 28,
+	age: 38,
 	marks:[]int{
 		23,23,23,23,23,
 	},
