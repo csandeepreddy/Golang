@@ -18,6 +18,19 @@ marks []int
 }                         //struct
 
 
+
+type father struct{
+        name  string
+				land  int
+}
+type son struct{
+        father
+				car   string
+				bike  string
+				speed  float32
+			}
+
+
 // without var and declaring variables
 
 /*name :="sandeep"
@@ -104,4 +117,42 @@ details:=biodata{
 }
 
 fmt.Println(details.age)
+
+
+
+
+adoctor:=struct {name string}{name:"sandeep reddy"}
+anotherdoctor:=&adoctor              //we give "&" it will print same name two times
+anotherdoctor.name="suresh reddy"
+
+fmt.Println(adoctor.name)
+fmt.Println(anotherdoctor.name)
+
+
+
+				b :=  son{}
+				b.name= "srinivasulu"
+				b.land= 8
+				b.car= "lamborghni"
+				b.bike= "ktm"
+				b.speed= 80
+	fmt.Println(b.name )
+	fmt.Println(b.land )
+	fmt.Println(b.car )
+	fmt.Println(b.bike )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
