@@ -8,6 +8,7 @@ func main() {
 	i=45
 	j=600
 	fmt.Println(i * j)
+	fmt.Println(i + j)
 
 type	biodata struct{   //struct
 reg int
