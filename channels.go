@@ -34,6 +34,6 @@ func main() {
 	ch := make(chan int)
 
 	go myfunc(ch)
-	ch <- 567
+	ch <- 567    //receive the data 
 	fmt.Println("End Main method")
 }
